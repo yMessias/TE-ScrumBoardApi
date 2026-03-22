@@ -1,0 +1,22 @@
+{
+  "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "1wI7V0jx6Qo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Messias\\Desktop\\TE\\ScrumBoardApi\\ScrumBoardApi.csproj",
+=======
+  "dgSpecHash": "cdoFIuZS3ds=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Messias\\Desktop\\TE\\ScrumBoardApi\\ScrumBoardApi\\ScrumBoardApi.csproj",
+>>>>>>> 2257399fa2c22f4d0f1a6e5d4f776550cccb44bc
+  "expectedPackageFiles": [
+    "C:\\Users\\Messias\\.nuget\\packages\\microsoft.extensions.apidescription.server\\8.0.0\\microsoft.extensions.apidescription.server.8.0.0.nupkg.sha512",
+    "C:\\Users\\Messias\\.nuget\\packages\\microsoft.openapi\\2.4.1\\microsoft.openapi.2.4.1.nupkg.sha512",
+    "C:\\Users\\Messias\\.nuget\\packages\\swashbuckle.aspnetcore\\10.1.5\\swashbuckle.aspnetcore.10.1.5.nupkg.sha512",
+    "C:\\Users\\Messias\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.1.5\\swashbuckle.aspnetcore.swagger.10.1.5.nupkg.sha512",
+    "C:\\Users\\Messias\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.1.5\\swashbuckle.aspnetcore.swaggergen.10.1.5.nupkg.sha512",
+    "C:\\Users\\Messias\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.1.5\\swashbuckle.aspnetcore.swaggerui.10.1.5.nupkg.sha512",
+    "C:\\Users\\Messias\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
