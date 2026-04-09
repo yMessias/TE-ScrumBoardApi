@@ -20,12 +20,12 @@
         },
         "compile": {
           "lib/net8.0/Microsoft.OpenApi.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         },
         "runtime": {
           "lib/net8.0/Microsoft.OpenApi.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         }
       },
@@ -51,12 +51,12 @@
         },
         "compile": {
           "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         },
         "runtime": {
           "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         },
         "frameworkReferences": [
@@ -70,12 +70,12 @@
         },
         "compile": {
           "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         },
         "runtime": {
           "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         }
       },
@@ -83,12 +83,12 @@
         "type": "package",
         "compile": {
           "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         },
         "runtime": {
           "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         },
         "frameworkReferences": [
@@ -98,14 +98,10 @@
       "System.Text.Json/8.0.5": {
         "type": "package",
         "compile": {
-          "lib/net8.0/System.Text.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/System.Text.Json.dll": {}
         },
         "runtime": {
-          "lib/net8.0/System.Text.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/System.Text.Json.dll": {}
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
@@ -186,10 +182,8 @@
         "README.md",
         "lib/net8.0/Microsoft.OpenApi.dll",
         "lib/net8.0/Microsoft.OpenApi.pdb",
-        "lib/net8.0/Microsoft.OpenApi.xml",
         "lib/netstandard2.0/Microsoft.OpenApi.dll",
         "lib/netstandard2.0/Microsoft.OpenApi.pdb",
-        "lib/netstandard2.0/Microsoft.OpenApi.xml",
         "microsoft.openapi.2.4.1.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
@@ -217,13 +211,10 @@
         ".signature.p7s",
         "lib/net10.0/Swashbuckle.AspNetCore.Swagger.dll",
         "lib/net10.0/Swashbuckle.AspNetCore.Swagger.pdb",
-        "lib/net10.0/Swashbuckle.AspNetCore.Swagger.xml",
         "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll",
         "lib/net8.0/Swashbuckle.AspNetCore.Swagger.pdb",
-        "lib/net8.0/Swashbuckle.AspNetCore.Swagger.xml",
         "lib/net9.0/Swashbuckle.AspNetCore.Swagger.dll",
         "lib/net9.0/Swashbuckle.AspNetCore.Swagger.pdb",
-        "lib/net9.0/Swashbuckle.AspNetCore.Swagger.xml",
         "package-readme.md",
         "swashbuckle.aspnetcore.swagger.10.1.5.nupkg.sha512",
         "swashbuckle.aspnetcore.swagger.nuspec"
@@ -238,13 +229,10 @@
         ".signature.p7s",
         "lib/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
         "lib/net10.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
-        "lib/net10.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
         "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
         "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
-        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
         "lib/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
         "lib/net9.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
-        "lib/net9.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
         "package-readme.md",
         "swashbuckle.aspnetcore.swaggergen.10.1.5.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggergen.nuspec"
@@ -259,13 +247,10 @@
         ".signature.p7s",
         "lib/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
         "lib/net10.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
-        "lib/net10.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
         "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
         "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
-        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
         "lib/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
         "lib/net9.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
-        "lib/net9.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
         "package-readme.md",
         "swashbuckle.aspnetcore.swaggerui.10.1.5.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
@@ -330,15 +315,10 @@
         "buildTransitive/netcoreapp2.0/System.Text.Json.targets",
         "buildTransitive/netstandard2.0/System.Text.Json.targets",
         "lib/net462/System.Text.Json.dll",
-        "lib/net462/System.Text.Json.xml",
         "lib/net6.0/System.Text.Json.dll",
-        "lib/net6.0/System.Text.Json.xml",
         "lib/net7.0/System.Text.Json.dll",
-        "lib/net7.0/System.Text.Json.xml",
         "lib/net8.0/System.Text.Json.dll",
-        "lib/net8.0/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
-        "lib/netstandard2.0/System.Text.Json.xml",
         "system.text.json.8.0.5.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
@@ -351,27 +331,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Messias\\.nuget\\packages\\": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\Messias\\Desktop\\TE\\ScrumBoardApi\\ScrumBoardApi.csproj",
+      "projectUniqueName": "/workspaces/TE-ScrumBoardApi/ScrumBoardApi.csproj",
       "projectName": "ScrumBoardApi",
-      "projectPath": "C:\\Users\\Messias\\Desktop\\TE\\ScrumBoardApi\\ScrumBoardApi.csproj",
-      "packagesPath": "C:\\Users\\Messias\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Messias\\Desktop\\TE\\ScrumBoardApi\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\Messias\\Desktop\\TE\\ScrumBoardApi\\ScrumBoardApi\\ScrumBoardApi.csproj",
-      "projectName": "ScrumBoardApi",
-      "projectPath": "C:\\Users\\Messias\\Desktop\\TE\\ScrumBoardApi\\ScrumBoardApi\\ScrumBoardApi.csproj",
-      "packagesPath": "C:\\Users\\Messias\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Messias\\Desktop\\TE\\ScrumBoardApi\\ScrumBoardApi\\obj\\",
->>>>>>> 2257399fa2c22f4d0f1a6e5d4f776550cccb44bc
+      "projectPath": "/workspaces/TE-ScrumBoardApi/ScrumBoardApi.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/TE-ScrumBoardApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Messias\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -394,7 +366,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -416,6 +389,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -424,7 +411,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.419/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,34 +1,20 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\Messias\\Desktop\\TE\\ScrumBoardApi\\ScrumBoardApi.csproj": {}
+    "/workspaces/TE-ScrumBoardApi/ScrumBoardApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Messias\\Desktop\\TE\\ScrumBoardApi\\ScrumBoardApi.csproj": {
+    "/workspaces/TE-ScrumBoardApi/ScrumBoardApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Messias\\Desktop\\TE\\ScrumBoardApi\\ScrumBoardApi.csproj",
+        "projectUniqueName": "/workspaces/TE-ScrumBoardApi/ScrumBoardApi.csproj",
         "projectName": "ScrumBoardApi",
-        "projectPath": "C:\\Users\\Messias\\Desktop\\TE\\ScrumBoardApi\\ScrumBoardApi.csproj",
-        "packagesPath": "C:\\Users\\Messias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Messias\\Desktop\\TE\\ScrumBoardApi\\obj\\",
-=======
-    "C:\\Users\\Messias\\Desktop\\TE\\ScrumBoardApi\\ScrumBoardApi\\ScrumBoardApi.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Messias\\Desktop\\TE\\ScrumBoardApi\\ScrumBoardApi\\ScrumBoardApi.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Messias\\Desktop\\TE\\ScrumBoardApi\\ScrumBoardApi\\ScrumBoardApi.csproj",
-        "projectName": "ScrumBoardApi",
-        "projectPath": "C:\\Users\\Messias\\Desktop\\TE\\ScrumBoardApi\\ScrumBoardApi\\ScrumBoardApi.csproj",
-        "packagesPath": "C:\\Users\\Messias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Messias\\Desktop\\TE\\ScrumBoardApi\\ScrumBoardApi\\obj\\",
->>>>>>> 2257399fa2c22f4d0f1a6e5d4f776550cccb44bc
+        "projectPath": "/workspaces/TE-ScrumBoardApi/ScrumBoardApi.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/TE-ScrumBoardApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Messias\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -51,7 +37,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -73,6 +60,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -81,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.419/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
